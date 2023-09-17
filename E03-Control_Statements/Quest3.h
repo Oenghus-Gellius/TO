@@ -10,6 +10,7 @@ Exemplos:
 a) (FF)16 = 15*161 + 15*160 = 15*16 + 15*1 = (255)10
 b) (20)16 = 2*161 + 0*160 = 2*16 + 0*1 = (32)10
 c) (5DC)16 = 5*162 + 13*161 + 12*160 = 5*256 + 13*16 + 12*1 = (1500)10
+
 Use a interface da classe abaixo para implementar esse aplicativo.
 // Interface da classe Hexadecimal.
 */

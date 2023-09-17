@@ -6,26 +6,23 @@ caracteres com código de 128 a 255, chamados de ASCII Estendido. Use a interfac
 abaixo para implementá-lo.
 */
 
+// Interface da classe Ascii.
 #pragma once
 
+#include <iostream>
+#include <cstdlib>
 #include <string>
+#include <clocale>
 
 using namespace std;
 
+class Ascii {
+    
+public:
+    Ascii() = default;
 
-class Hexadecimal {
-    private:
-        string numero;
-    public:
-        Hexadecimal() = default;
-        Hexadecimal(string base16);
-
-        // Define o valor do número hexadecimal (base 16).
-        void setNumero (string numero);
-
-        // Obtém o número em hexadecimal (base 16).
-        string hexadecimal();
-        
-        // Obtém o número em decimal (base 10). O número decimal é calculado usando a fórmula acima.
-        unsigned int decimal();
+    /* Exibe no console os caracteres estendidos do código ASCII segundo o código e o nome fornecidos.
+    Retorna true se o código da página (codePage) é válido e false se não for.
+    */
+    bool ascii(string codePageName, unsigned codePage);
 };

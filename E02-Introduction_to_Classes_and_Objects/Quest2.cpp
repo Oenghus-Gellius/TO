@@ -13,8 +13,8 @@ using namespace std;
     //construtor sobrecarregado
     Pixel::Pixel  (int x, int y)
     {
-        this->_x = x;
-        this->_y = y;
+        setX(x);
+        setY(y);
     }
 
     //Destrutor

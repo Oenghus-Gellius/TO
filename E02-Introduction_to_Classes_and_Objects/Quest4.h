@@ -7,3 +7,4 @@ b) iniciar os atributos com valores especificados pelo usuário da classe;
 c) consultar (get) e modificar (set) os atributos da classe;
 d) retornar uma representação string com os atributos do livro. Use a declaração: string toString(
 */
+
