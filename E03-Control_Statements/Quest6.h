@@ -32,18 +32,25 @@ class PrinterStatus {
 private:
 unsigned char status;
 public:
+
 // Inicia o objeto com o status inicial da impressora.
 PrinterStatus(unsigned char status);
+
 // Obtém o status atual da impressora.
 unsigned char getStatus();
+
 // Retorna true se a impressora está ligada ou false se está desligada.
 bool printerOn();
+
 // Retorna true se a impressora está com papel ou false se está sem papel.
 bool printerWithPaper();
+
 // Retorna true se o buffer da impressora está cheio ou false se está com espaço livre.
 bool printerBufferFull();
+
 // Informa true se o cartucho de impressão preto está com tinta ou false se está vazio.
 bool blackPrintCartridge();
+
 // Informa true se o cartucho de impressão tricolor está com tinta ou false se está vazio.
 bool tricolorPrintCartridge();
 };
